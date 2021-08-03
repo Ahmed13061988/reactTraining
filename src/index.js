@@ -2,13 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Timer from './Timer'
+// import Timer from './Timer'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    
-    <Timer />
+    <App>
+      <li>List Element</li>
+      <h3>Heading element</h3>
+      <p>Paragraph element</p>
+      <span>Span element</span>
+    </App>
   </React.StrictMode>,
   document.getElementById('root')
 );
